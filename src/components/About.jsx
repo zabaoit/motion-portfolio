@@ -57,8 +57,11 @@ const About = () => {
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {aboutDatas.map((aboutData, index) => (
-                  <div className="bg-dark-400 rounded-2xl p-6 transition-transform duration-300 hover:-translate-y-2 cursor-pointer ">
-                    <div key={index} className="text-purple text-3xl mb-4">
+                  <div
+                    key={index}
+                    className="bg-dark-400 rounded-2xl p-6 transition-transform duration-300 hover:-translate-y-2 cursor-pointer "
+                  >
+                    <div className="text-purple text-3xl mb-4">
                       <aboutData.icon />
                     </div>
                     <h3 className="text-xl font-semibold mb-3">{aboutData.title}</h3>

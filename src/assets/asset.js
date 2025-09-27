@@ -2,6 +2,8 @@ import { FaSchool, FaCode, FaReact, FaNodeJs, FaGithub, FaUsers } from "react-ic
 import profileImg from "../assets/profile.avif";
 import { FaProjectDiagram } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
+import todoApp from "../assets/todoApp.avif";
+import laptopShop from "../assets/laptopShop.avif";
 
 export const assets = {
   profileImg,
@@ -58,5 +60,59 @@ export const skillsData = [
     title: "Other Skills",
     description: "Basic knowledge of UI/UX design and strong soft skills in teamwork and communication.",
     technologies: ["Basic UI/UX design", "Soft Skills"],
+  },
+];
+
+export const projectData = [
+  {
+    title: "Todo App",
+    description:
+      "A simple Todo application built with React and styled using Tailwind CSS, featuring task creation, completion, and deletion",
+    image: todoApp,
+    tech: ["React", "Tailwind Css"],
+    icon: FaGithub,
+    link: "#",
+  },
+  {
+    title: "Todo App",
+    description:
+      "A simple Todo application built with React and styled using Tailwind CSS, featuring task creation, completion, and deletion",
+    image: todoApp,
+    tech: ["React", "Tailwind Css"],
+    icon: FaGithub,
+    link: "#",
+  },
+  {
+    title: "Todo App",
+    description:
+      "A simple Todo application built with React and styled using Tailwind CSS, featuring task creation, completion, and deletion",
+    image: todoApp,
+    tech: ["React", "Tailwind Css"],
+    icon: FaGithub,
+    link: "#",
+  },
+  {
+    title: "Laptop Shop",
+    description: "A modern furniture e-commerce platform offering customizable home and office furniture .",
+    image: laptopShop,
+    tech: ["Nodejs", "Express", "MySql", "Bootstrap"],
+    icon: FaGithub,
+    link: "https://github.com/zabaoit/node-pro",
+  },
+  {
+    title: "Laptop Shop",
+    description: "A modern furniture e-commerce platform offering customizable home and office furniture .",
+    image: laptopShop,
+    tech: ["Nodejs", "Express", "MySql", "Bootstrap"],
+    icon: FaGithub,
+    link: "https://github.com/zabaoit/node-pro",
+  },
+  {
+    title: "Laptop Shop",
+    description: "A modern furniture e-commerce platform offering customizable home and office furniture .",
+    image: laptopShop,
+    tech: ["Nodejs", "Express", "MySql", "Bootstrap"],
+    icon: FaGithub,
+    link: "https://github.com/zabaoit/node-pro",
   },
 ];
