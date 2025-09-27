@@ -3,6 +3,7 @@
 
 * {
   font-family: Saira, sans-serif;
+  scroll-behavior: smooth;
 }
 @theme {
   --color-dark-100: #1a1a1a;

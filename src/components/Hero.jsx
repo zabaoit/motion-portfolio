@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { assets } from "../assets/asset.js";
+
 const Hero = () => {
   return (
     <motion.div
@@ -7,6 +8,7 @@ const Hero = () => {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
       viewport={{ once: true }}
+      id="Home"
       className="min-h-screen pt-20 pb-6 bg-gradient-to-r from-[#1a1a1a] via-[#2d2d2d] to-[#1a1a1a] flex items-center"
     >
       <div className="container mx-auto px-6 flex  flex-col md:flex-row items-center justify-between">

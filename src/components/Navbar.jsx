@@ -40,14 +40,8 @@ const Navbar = () => {
       {showMenu && (
         <div className="md:hidden mt-4 bg-dark-400 rounded-lg p-4 flex flex-col space-y-3 justify-center text-center">
           {navMenu.map((item, index) => (
-            <a
-              onClick={() => setShowMenu(!showMenu)}
-              key={index}
-              href={`#${item}`}
-              className="relative text-white/80 transition duration-300 hover:text-purple group"
-            >
+            <a onClick={() => setShowMenu(!showMenu)} key={index} href={`#${item}`} className="relative text-white/80 ">
               <span>{item}</span>
-              <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full"></span>
             </a>
           ))}
         </div>
