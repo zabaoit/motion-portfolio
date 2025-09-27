@@ -9,7 +9,7 @@ const About = () => {
       transition={{ duration: 0.6, ease: "easeOut" }}
       viewport={{ once: false, amount: 0.2 }}
       id="About"
-      className="py-20 bg-dark-200"
+      className="py-20"
     >
       <div className="container mx-auto px-6">
         {/* heading */}
@@ -57,8 +57,8 @@ const About = () => {
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {aboutDatas.map((aboutData, index) => (
-                  <div className="bg-dark-300 rounded-2xl py-4 px-6 transition-transform duration-300 hover:-translate-y-2 cursor-pointer ">
-                    <div key={index} className="text-purple text-3xl mb-2">
+                  <div className="bg-dark-400 rounded-2xl p-6 transition-transform duration-300 hover:-translate-y-2 cursor-pointer ">
+                    <div key={index} className="text-purple text-3xl mb-4">
                       <aboutData.icon />
                     </div>
                     <h3 className="text-xl font-semibold mb-3">{aboutData.title}</h3>
