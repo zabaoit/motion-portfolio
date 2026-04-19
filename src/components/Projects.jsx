@@ -22,12 +22,12 @@ const Projects = () => {
           {projectData.map((item, index) => (
             <div
               key={index}
-              className="bg-dark-400 rounded-2xl overflow-hidden transition duration-300 hover:-translate-y-2 cursor-pointer"
+              className="bg-dark-400 rounded-2xl overflow-hidden transition duration-300 hover:-translate-y-2 cursor-pointer flex flex-col"
             >
               <img src={item.image} alt={item.title} className="w-full h-60 object-cover" />
 
               {/* project content */}
-              <div className="p-6">
+              <div className="p-6 flex flex-col flex-1">
                 <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
                 <p className="text-gray-400  mb-4">{item.description}</p>
                 <div className="flex flex-wrap gap-2 mb-4">
@@ -40,7 +40,8 @@ const Projects = () => {
                 <a
                   href={item.link}
                   target="_blank"
-                  className="flex items-center justify-between w-25 text-center px-4 py-2 border border-purple rounded-lg font-medium hover:bg-purple/20 transition-colors"
+                  rel="noreferrer"
+                  className="mt-auto inline-flex w-fit items-center gap-2 px-4 py-2 border border-purple rounded-lg font-medium hover:bg-purple/20 transition-colors"
                 >
                   <item.icon />
                   <span>Code</span>

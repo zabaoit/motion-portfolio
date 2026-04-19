@@ -65,31 +65,13 @@ export const skillsData = [
 
 export const projectData = [
   {
-    title: "Todo App",
+    title: "Url Shortener",
     description:
-      "A simple Todo application built with React and styled using Tailwind CSS, featuring task creation, completion, and deletion",
+      "A simple URL shortening application built with React and styled using Tailwind CSS, featuring URL creation, completion, and deletion",
     image: todoApp,
-    tech: ["React", "Tailwind Css"],
+    tech: ["TypeScript", "JavaScript", "Html", "Css"],
     icon: FaGithub,
-    link: "#",
-  },
-  {
-    title: "Todo App",
-    description:
-      "A simple Todo application built with React and styled using Tailwind CSS, featuring task creation, completion, and deletion",
-    image: todoApp,
-    tech: ["React", "Tailwind Css"],
-    icon: FaGithub,
-    link: "#",
-  },
-  {
-    title: "Todo App",
-    description:
-      "A simple Todo application built with React and styled using Tailwind CSS, featuring task creation, completion, and deletion",
-    image: todoApp,
-    tech: ["React", "Tailwind Css"],
-    icon: FaGithub,
-    link: "#",
+    link: "https://github.com/zabaoit/url-shortener",
   },
   {
     title: "Laptop Shop",
@@ -97,22 +79,22 @@ export const projectData = [
     image: laptopShop,
     tech: ["Nodejs", "Express", "MySql", "Bootstrap"],
     icon: FaGithub,
-    link: "https://github.com/zabaoit/node-pro",
+    link: "https://github.com/zabaoit/laptop-shop-nodejs",
   },
   {
-    title: "Laptop Shop",
-    description: "A modern furniture e-commerce platform offering customizable home and office furniture .",
+    title: "EduMax",
+    description: "An educational platform for managing and delivering online courses.",
     image: laptopShop,
-    tech: ["Nodejs", "Express", "MySql", "Bootstrap"],
+    tech: ["Html5", "Css3", "JavaScript"],
     icon: FaGithub,
-    link: "https://github.com/zabaoit/node-pro",
+    link: "https://github.com/zabaoit/EduMax",
   },
   {
-    title: "Laptop Shop",
-    description: "A modern furniture e-commerce platform offering customizable home and office furniture .",
+    title: "BookHub",
+    description: "A book management system that allows users to manage their book collections, track reading progress, and share reviews.",
     image: laptopShop,
-    tech: ["Nodejs", "Express", "MySql", "Bootstrap"],
+    tech: ["React", "Nodejs", "Express", "MySql", "Tailwindcss", "TypeScript"],
     icon: FaGithub,
-    link: "https://github.com/zabaoit/node-pro",
+    link: "https://github.com/zabaoit/BookHub",
   },
 ];

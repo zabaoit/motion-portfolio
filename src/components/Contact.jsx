@@ -70,7 +70,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-2">Location</h3>
-                <p className="text-gray-400">District 5, Tp. HCM</p>
+                <p className="text-gray-400">Ho Chi Minh City</p>
               </div>
             </div>
             <div className="flex items-start">
@@ -88,7 +88,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-2">Phone</h3>
-                <p className="text-gray-400">84+ 038 319 8407</p>
+                <p className="text-gray-400">038 319 8407</p>
               </div>
             </div>
 

@@ -1,16 +1,113 @@
-# React + Vite
+# Motion Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive personal portfolio website built with React, Vite, Tailwind CSS, and Framer Motion.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project presents a personal developer portfolio with:
 
-## React Compiler
+- A hero section with profile introduction and call-to-action buttons
+- An about section with background, journey, and contact details
+- A skills section showing frontend, backend, database, and tool experience
+- A projects section with featured work and GitHub code links
+- A contact section with contact information and social links
+- Smooth motion animations and a responsive layout for desktop and mobile
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- React 19
+- Vite
+- Tailwind CSS
+- Framer Motion
+- React Router DOM
+- React Icons
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Responsive navigation with mobile menu
+- Animated page sections using Framer Motion
+- Reusable data-driven UI for skills and projects
+- Project cards with tech badges and external source links
+- Social contact links for GitHub, Facebook, and LinkedIn
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18 or newer
+- npm
+
+### Installation
+
+```bash
+npm install
+```
+
+### Development
+
+```bash
+npm run dev
+```
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+### Preview Production Build
+
+```bash
+npm run preview
+```
+
+### Lint
+
+```bash
+npm run lint
+```
+
+## Project Structure
+
+```text
+src/
+  assets/
+    asset.js
+    laptopShop.avif
+    logo.png
+    profile.avif
+    todoApp.avif
+  components/
+    About.jsx
+    Contact.jsx
+    Footer.jsx
+    Hero.jsx
+    Navbar.jsx
+    Projects.jsx
+    Skills.jsx
+  pages/
+    Home.jsx
+  App.jsx
+  index.css
+  main.jsx
+```
+
+## Sections
+
+- `Home`: combines the main landing sections
+- `About`: personal background and journey
+- `Skills`: technical skills and tools
+- `Projects`: featured projects with GitHub links
+- `Contact`: contact details and social profiles
+
+## Contact
+
+- Email: nguyengiabao8407@gmail.com
+- Portfolio: https://zabaoit.vercel.app/
+- GitHub: https://github.com/zabaoit
+- Facebook: https://www.facebook.com/zabaoit
+- LinkedIn: https://www.linkedin.com/in/nguy%E1%BB%85n-gia-b%E1%BA%A3o-613aa2233/
+
+## License
+
+This project is for personal portfolio use. If you want a different license section, add it here.

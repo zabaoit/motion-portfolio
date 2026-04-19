@@ -17,7 +17,7 @@ const About = () => {
           About <span className="text-purple">Me</span>
         </h2>
         <p className="text-gray-400 text-center max-w-2xl mx-auto mb-16">
-          3rd-year IT Student – Focus on Full-Stack Development
+          I'm a third-year Software Engineering student interested in Backend and Full-Stack Development.
         </p>
 
         {/* image + my journey */}
@@ -45,16 +45,16 @@ const About = () => {
           >
             <div className="rounded-2xl p-6">
               <h3 className="text-2xl font-semibold mb-6">My Journey</h3>
-              <p className="text-gray-300 mb-6">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos esse nam rerum vel, illo deserunt aperiam
-                assumenda vero minus alias est iste ratione hic maiores suscipit earum, perferendis explicabo harum
-                nemo? Nesciunt assumenda veniam amet expedita!
-              </p>
-              <p className="text-gray-300 mb-12">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione deserunt amet hic unde quibusdam
-                pariatur quisquam fuga dolorum est, omnis tempora repellat, voluptatum voluptates laudantium doloribus
-                molestias repellendus eveniet explicabo?
-              </p>
+            
+
+              <ul className="text-gray-300 mb-12">
+                <li>My current focus is building personal and academic web applications using Node.js and modern web technologies.</li>
+                <li>I'm learning how to use AI tools effectively in development and real-world projects.</li>
+                <li>Reach me at: nguyengiabao8407@gmail.com</li>
+                <li>Portfolio: https://zabaoit.vercel.app/</li>
+                <li>Open to internship opportunities and collaboration.</li>
+              </ul>
+              
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {aboutDatas.map((aboutData, index) => (
                   <div
